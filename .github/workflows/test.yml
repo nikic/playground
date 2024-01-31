@@ -6,6 +6,6 @@ jobs:
   test:
     runs-on: macOS-13
     steps:
-      name: Test
-      run: |
-        csrutil status
+      - name: Test
+        run: |
+          csrutil status
