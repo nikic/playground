@@ -1,0 +1,11 @@
+name: Test
+
+on: push
+
+jobs:
+  test:
+    runs-on: macOS-13
+    steps:
+      name: Test
+      run: |
+        csrutil status
